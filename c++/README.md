@@ -51,21 +51,20 @@ your build system. For me, this structure works, which is partly adapted from Ja
 
 ```
 .
-├── CMakeLists.txt
 ├── cmake
-│   └── CPM.cmake 
+│   └── CPM.cmake
+├── CMakeLists.txt
 ├── Dependencies.cmake
 ├── README.md
 └── src
-    ├── CMakeLists.txt
-    └── hello_world
-        ├── CMakeLists.txt
-        └── main.cpp
+    ├── basic_adder.cpp
+    ├── hello_world.cpp
+    ├── ...
+    └── CMakeLists.txt
 ```
 
-To extend new targets to compile, you can create a new folder in `./src` and
-define new targets in its `CMakeLists.txt`. Then, make sure to add the new folder
-as a subdirectory in all the `CMakeLists.txt` higher up in the project structure.
+To extend new targets to compile, you can create a new file and
+define new targets in `src/CMakeLists.txt`.
 
 ### Build Systems
 

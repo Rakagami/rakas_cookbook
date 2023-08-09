@@ -1,2 +1,8 @@
-add_subdirectory(hello_world)
-add_subdirectory(cli)
+add_executable(hello_world hello_world.cpp)
+
+add_executable(basic_adder basic_adder.cpp)
+target_link_libraries(
+    basic_adder
+    PRIVATE
+        CLI11::CLI11
+    )
