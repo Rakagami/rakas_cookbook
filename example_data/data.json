@@ -1,0 +1,27 @@
+{
+  "data_point1": 1,
+  "data_point2": false,
+  "data_point_array": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "data_point_struct": {
+    "data_point_inner": 143,
+    "data_point_array": [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true
+    ]
+  }
+}
