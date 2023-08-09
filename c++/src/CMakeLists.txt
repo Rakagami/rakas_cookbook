@@ -6,3 +6,5 @@ target_link_libraries(
     PRIVATE
         CLI11::CLI11
     )
+
+add_executable(file_operations ./file_operations.cpp)
