@@ -72,7 +72,7 @@ The are many ways to build a C/C++ application.
 
 Build system combinations. For this Cookbook repository, I decided to use [cmake](https://cmake.org/)
 and make, since this is the one that most people are using _(don't quote me)_,
-but there using [meson](https://mesonbuild.com/).
+but there also many projects using [meson](https://mesonbuild.com/).
 
 The underlying compiler can be GCC, clang, or any other compiler, make sure the
 compiler supports the [C++ standard](https://en.cppreference.com/w/cpp/language/history)
