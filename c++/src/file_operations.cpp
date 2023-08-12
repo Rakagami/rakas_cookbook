@@ -77,7 +77,7 @@ int main()
     char tempChar = 0;
     if (ifile.is_open()) {
         while (ifile) {
-            tempChar = ifile.get();
+            tempChar = (char)ifile.get();
             std::cout << tempChar;
         }
     } else {
