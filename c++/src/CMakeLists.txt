@@ -8,3 +8,5 @@ target_link_libraries(
     )
 
 add_executable(file_operations ./file_operations.cpp)
+
+add_executable(string_operations ./string_operations.cpp)
