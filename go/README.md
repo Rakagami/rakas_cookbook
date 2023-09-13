@@ -2,6 +2,13 @@
 
 ## Quick Start
 
+Go to one of the folders and run:
+
+```
+cd [subfolder]
+go run main.go
+```
+
 ## General notes about this language and ecosystem
 
 I first became interested in Go when reading this [post about Go's syntax](https://go.dev/blog/declaration-syntax). The way function pointer declaration is handled (syntactically) in Go seems to be cleaner than. These are some points that stood out to me, when learning the basics of Go that makes it interesting:
